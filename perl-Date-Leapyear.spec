@@ -1,10 +1,10 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	Date-Leapyear
+Summary:	Is a particular year a leap year?
 Summary(pl):	Modu³ perla Date-Leapyear
 Name:		perl-Date-Leapyear
 Version:	1.7
-Release:	0
-License:	?
+Release:	1
+License:	Artistic
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
@@ -15,6 +15,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Is a particular year a leap year?
 
 %prep
 %setup -q -n Date-Leapyear-%{version}
