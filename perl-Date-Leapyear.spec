@@ -2,7 +2,7 @@
 %define	pdir	Date
 %define	pnam	Leapyear
 Summary:	Is a particular year a leap year?
-Summary(pl):	Modu³ perla Date-Leapyear
+Summary(pl):	Modu³ perla Date::Leapyear
 Name:		perl-Date-Leapyear
 Version:	1.7
 Release:	4
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Is a particular year a leap year?
 
 %description -l pl
-Modu³ perla Date-Leapyear - sprawdzaj±cy, czy dany rok jest
+Modu³ perla Date::Leapyear - sprawdzaj±cy, czy dany rok jest
 przestêpny.
 
 %prep
