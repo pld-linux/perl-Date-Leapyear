@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Date
 %define	pnam	Leapyear
-%include	/usr/lib/rpm/macros.perl
 Summary:	Is a particular year a leap year?
 Summary(pl):	Modu³ perla Date-Leapyear
 Name:		perl-Date-Leapyear
 Version:	1.7
-Release:	3
-
+Release:	4
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Modu³ perla Date-Leapyear - sprawdzaj±cy, czy dany rok jest
 przestêpny.
 
 %prep
-%setup -q -n Date-Leapyear-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
