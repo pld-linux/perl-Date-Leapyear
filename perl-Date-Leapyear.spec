@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Date
 %define	pnam	Leapyear
-Summary:	Date::Leapear Perl module - is a particular year a leap year?
+Summary:	Date::Leapyear Perl module - is a particular year a leap year?
 Summary(pl):	Modu³ Perla Date::Leapyear - sprawdzanie przestêpno¶ci zadanego roku
 Name:		perl-Date-Leapyear
 Version:	1.71
@@ -24,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Is a particular year a leap year?
 
 %description -l pl
-Modu³ perla Date::Leapyear sprawdza, czy dany rok jest przestêpny.
+Modu³ Perla Date::Leapyear sprawdza, czy dany rok jest przestêpny.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -39,7 +39,8 @@ Modu³ perla Date::Leapyear sprawdza, czy dany rok jest przestêpny.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
