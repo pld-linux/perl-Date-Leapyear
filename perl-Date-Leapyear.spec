@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Date
-%define	pnam	Leapyear
+%define		pdir	Date
+%define		pnam	Leapyear
 Summary:	Date::Leapyear Perl module - is a particular year a leap year?
 Summary(pl):	Modu³ Perla Date::Leapyear - sprawdzanie przestêpno¶ci zadanego roku
 Name:		perl-Date-Leapyear
