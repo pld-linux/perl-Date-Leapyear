@@ -24,8 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Is a particular year a leap year?
 
 %description -l pl
-Modu³ perla Date::Leapyear - sprawdzaj±cy, czy dany rok jest
-przestêpny.
+Modu³ perla Date::Leapyear sprawdza, czy dany rok jest przestêpny.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
