@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Leapyear
 Summary:	Date::Leapyear Perl module - is a particular year a leap year?
-Summary(pl):	Modu³ Perla Date::Leapyear - sprawdzanie przestêpno¶ci zadanego roku
+Summary(pl.UTF-8):   ModuÅ‚ Perla Date::Leapyear - sprawdzanie przestÄ™pnoÅ›ci zadanego roku
 Name:		perl-Date-Leapyear
 Version:	1.71
 Release:	4
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Is a particular year a leap year?
 
-%description -l pl
-Modu³ Perla Date::Leapyear sprawdza, czy dany rok jest przestêpny.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Date::Leapyear sprawdza, czy dany rok jest przestÄ™pny.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
