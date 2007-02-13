@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Leapyear
 Summary:	Date::Leapyear Perl module - is a particular year a leap year?
-Summary(pl.UTF-8):   Moduł Perla Date::Leapyear - sprawdzanie przestępności zadanego roku
+Summary(pl.UTF-8):	Moduł Perla Date::Leapyear - sprawdzanie przestępności zadanego roku
 Name:		perl-Date-Leapyear
 Version:	1.71
 Release:	4
