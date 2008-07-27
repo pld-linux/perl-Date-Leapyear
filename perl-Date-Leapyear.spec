@@ -9,7 +9,7 @@ Summary:	Date::Leapyear Perl module - is a particular year a leap year?
 Summary(pl.UTF-8):	Moduł Perla Date::Leapyear - sprawdzanie przestępności zadanego roku
 Name:		perl-Date-Leapyear
 Version:	1.71
-Release:	4
+Release:	5
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
