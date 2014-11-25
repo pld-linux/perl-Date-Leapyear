@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Date
 %define		pnam	Leapyear
+%include	/usr/lib/rpm/macros.perl
 Summary:	Date::Leapyear Perl module - is a particular year a leap year?
 Summary(pl.UTF-8):	Moduł Perla Date::Leapyear - sprawdzanie przestępności zadanego roku
 Name:		perl-Date-Leapyear
@@ -14,8 +14,9 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bdfe5e8d435d6afcf7103269450e514b
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Date-Leapyear/
 BuildRequires:	perl-Test-Simple
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
